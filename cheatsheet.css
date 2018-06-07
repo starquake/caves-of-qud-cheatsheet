@@ -1,34 +1,54 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono');
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono");
 
 body {
-    font-family: 'Roboto Mono', sans-serif;
-    font-size: 14px;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
 }
 
 .cheatsheet {
-    display: flex;
-    flex-direction: column;
-    margin: 1em;
+  display: flex;
+  flex-direction: row;
+  margin: 1em;
+}
+
+.cheatsheet .hint {
+  font-size: 0.8em;
+  opacity: rgb(16, 16, 16);
+}
+
+.cheatsheet .column {
+  display: flex;
+  flex-direction: column;
+}
+
+.cheatsheet .directions {
+  width: 50px;
+}
+
+.cheatsheet .row {
+  display: flex;
+  flex-direction: row;
+}
+
+.cheatsheet .row > * {
+  width: 20px;
 }
 
 .cheatsheet .item {
-    display: flex;
-    flex-direction: row;
-    width: 450px;
+  display: flex;
+  flex-direction: row;
+  width: 450px;
 }
 
 .cheatsheet .item > * {
-    flex: 1 1 0;
+  flex: 1 1 0;
 }
 
 .cheatsheet .category {
-    margin-top: 0.5em;
+  margin-top: 0.5em;
 }
 
 .cheatsheet .category .title {
-    font-size: 1.5em;
-}
-
-.cheatsheet .category .hint {
-    font-size: 0.8em;
+  font-size: 1.5em;
 }
