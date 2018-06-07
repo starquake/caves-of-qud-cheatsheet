@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono');
+
+body {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 14px;
+}
+
+.cheatsheet {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.cheatsheet .item {
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+}
+
+.cheatsheet .item > * {
+    flex: 1 1 0;
+}
+
+.cheatsheet .category {
+    margin-top: 0.5em;
+}
+
+.cheatsheet .category .title {
+    font-size: 1.5em;
+}
+
+.cheatsheet .category .hint {
+    font-size: 0.8em;
+}
