@@ -22,8 +22,8 @@ body {
   flex-direction: column;
 }
 
-.cheatsheet .directions {
-  width: 50px;
+.cheatsheet .directions .row > * {
+  width: 20px;
 }
 
 .cheatsheet .row {
